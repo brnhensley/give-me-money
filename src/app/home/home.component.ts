@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FeaturedComponent } from '../featured/featured.component';
 
 @Component({
   selector: 'app-home',

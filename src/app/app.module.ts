@@ -3,11 +3,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+
 import { routing } from './app.routing';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { FeaturedComponent } from './featured/featured.component';
+
 
 
 @NgModule({
@@ -16,7 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     AboutComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    FeaturedComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,21 @@
+{
+    "projects": [{
+        "name": "Jurassic Park",
+        "price": "10,000",
+        "img": "../../assets/jurassic.jpg",
+        "description": "This project is in dire need of help. After tries 1-4 ended in an enourmous bodycount funding has suspicously dried up. IT'S A NEOLIBERAL CONSPIRACY!  Now is the time to shine! We can bring the most deadly/awesoome beasts in earths history back to life, so grab your checkbooks!",
+        "id": "1"
+    }, {
+        "name": "Jurassic Sea World",
+        "price": "500,000,000",
+        "img": "../../assets/otherpark.jpg",
+        "description": "This project is in need of your money. We want to build special parks all over the world! What's so special about these parks you say? These parks are similar to Jurassic Park, but with Sea Creatures. The Jurassic Sea World welcomes all sorts of payments! (No Refunds or become fish bait). ",
+        "id": "2"
+    }, {
+        "name": "Pleistocene Park",
+        "price": "100,000,000",
+        "img": "../../assets/pleistocene2.jpg",
+        "description": "This project will de-extinct cool giant mammals from the ice ages to repopulate the siberian tundra! How cool is that! Be there or be square.",
+        "id": "3"
+    }]
+}

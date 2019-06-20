@@ -1,4 +1,4 @@
-<div class="panel-group">
+<!-- <div class="panel-group">
     <div class="panel panel-default">
         <div class="panel-heading">
             <h1 class="title">Jurassic Park</h1>
@@ -38,5 +38,18 @@
             <button routerLink="pay">Give Them Money!</button>
         </div>
 
+    </div>
+</div> -->
+<div class="panel-group">
+    <div *ngFor="let project of projects | async" class="panel panel-default">
+        <div class="panel-heading">
+            <h1 class="title">{{project.name}}</h1>
+        </div>
+        <div class="panel-body">
+            <img src="{{project.img}}">
+            <p><span class="description">Description: </span>{{project.description}}</p>
+            <p><span class="description">Amount Wanted: </span>{{project.price}}</p>
+            <button routerLink="pay">Give Them The Money!</button>
+        </div>
     </div>
 </div>
